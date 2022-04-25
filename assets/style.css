@@ -1,0 +1,112 @@
+/*===== RESET =====================================*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #ddd;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+/*===== MENU =====================================*/
+header {
+    background-color: #f7b600;
+    padding: 15px 15px 0 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+.menu span {
+    color: #fff;
+}
+.menuarea {
+    background-color: #eee;
+    display: inline-block;
+    border-radius: 15px 15px 0 0;
+    margin-top: 20px;
+}
+.menuarea ul li {
+    display: inline;
+    padding: 0 10px;
+    transition: 0.3s;
+    border-left: 1px solid #ccc;
+}
+.menu ul li:first-child {
+    border-left: none;
+}
+.menu ul a {
+    text-decoration: none;
+    color: #000;
+    transition: 0.2s;
+    padding: 0 10px;
+    font-size: 15px;
+}
+.menu ul a:hover {
+    color: #f7b600;
+}
+
+/*===== MAIN =====================================*/
+.container {
+    width: 920px;
+    margin: auto;
+    padding-bottom: 15px;
+}
+.posts {
+    width: 640px;
+    float: left;
+}
+.area-lateral {
+    width: 250px;
+    float: right;
+}
+.post {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.post-image img {
+    width: 100%;
+}
+.area-lateral ul li {
+    list-style: none;
+}
+.area-lateral a {
+    text-decoration: none;
+    color: #f7b600;
+}
+.title-lat h4 {
+    background-color: #ccc;
+    padding: 5px;
+}
+.posts-recentes {
+    background-color: #fff;
+}
+.posts-recent{
+    padding: 5px;
+    font-size: 12px;
+}
+.posts-recent p {
+    border-top: #ccc 2px dotted;
+}
+.posts-recent p:first-child {
+    border-top: none;
+}
+.categorias {
+    margin-top: 20px;
+    background-color: #fff;
+}
+.categorias ul {
+    padding: 5px;
+    font-size: 14px;
+}
+
+
+/*===== FOOTER =====================================*/
+footer {
+    clear: both; /*interrompe o fluxo do float*/
+    background-color: #ccc;
+    text-align: center;
+    padding: 10px;
+}
